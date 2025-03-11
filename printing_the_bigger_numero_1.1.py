@@ -7,4 +7,10 @@ numero_dos = float(input("What's the second number?:  "))
 # evaluate the numbers
     #use If statements
     # evaluate using < > function
+
+if numero_uno > numero_dos:
+    print(f"{numero_uno} is the bigger number :) ")
+else:
+    print(f"{numero_dos} is the bigger number :) ")
+
 # print results

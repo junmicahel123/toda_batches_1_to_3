@@ -15,3 +15,5 @@ second_number = float(input("Input second number::"))
 difference = first_number - second_number
 
 # print the difference
+
+print(f"The difference of {first_number} and {second_number} is -->> {difference}")

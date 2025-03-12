@@ -1,9 +1,11 @@
 # pseudocode
 # ask for number input
-
-first_number = input("What's the first number?: ")
-second_number = input("What's the second number?: ")
-
 # convert to float
+
+
+first_number = float(input("What's the first number?: "))
+second_number = float(input("What's the second number?: "))
+
+
 # use / function to find quotient
 # print quotient

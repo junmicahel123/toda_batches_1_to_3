@@ -13,4 +13,6 @@ numero_dos = input("Input number 2 ::")
 
 # find quotient
     # convert to INTEGER to remove decimal
+quotient = int(numero_uno - numero_dos)
+
 # print quotient

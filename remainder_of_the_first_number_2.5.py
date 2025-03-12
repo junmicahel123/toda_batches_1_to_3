@@ -16,3 +16,5 @@ seconD_number = float(input("Please input second number::"))
 remainder = firsT_number % seconD_number
 
 # print the remainder
+print(f"The remainder of {firsT_number} and {seconD_number} is -->> {remainder}")
+

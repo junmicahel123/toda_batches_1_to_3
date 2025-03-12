@@ -8,5 +8,9 @@ number_2 = input(("What's the second Number?: "))
 
  
 # Multiply the input numbers
+
+produkto = number_1 * number_2
+
+
 # print results
 

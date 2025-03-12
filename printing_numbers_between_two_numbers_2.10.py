@@ -12,5 +12,9 @@ second_number = int(input("Input second number:: "))
     # if first number is bigger then second
 if first_number > second_number:
     first_number, second_number = second_number, first_number
-    
+
 # print results
+print(f"Numbers between {first_number} and {second_number}:")
+for numbers in range(first_number + 1, second_number):
+    print(numbers)
+    

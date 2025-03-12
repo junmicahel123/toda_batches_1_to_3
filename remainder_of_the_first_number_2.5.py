@@ -12,4 +12,7 @@ seconD_number = float(input("Please input second number::"))
 
 
 # use modulus operation "%" for the remainder
+
+remainder = firsT_number % seconD_number
+
 # print the remainder

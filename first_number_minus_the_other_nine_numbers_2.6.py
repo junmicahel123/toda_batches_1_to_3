@@ -19,6 +19,6 @@ for the_rest in range(0, 9):
 # minus the first number to the iniatilized constant
 
 difference = first_number - the_rest_of_the_numbers
-
-
 # print the results
+
+print(f"The result of difference of the first number minus the rest of the ten numbers \n --> {difference} <--")

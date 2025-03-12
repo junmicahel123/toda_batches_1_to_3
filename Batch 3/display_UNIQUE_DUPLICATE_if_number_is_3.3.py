@@ -2,21 +2,26 @@
 # initialize sets number []
 
 number_list = []
+count = 0
 
 # use while loop for numbers input
 # use try and except to look for invalid inputs
 # ask for number
 # use if statements to decide wethe unique or duplicate
 
-while len(number_list) < 10:
+while count < 10:
     try:
-        number = int(input("Enter a number::"))
-        if number in number_list:
-            print("UNQUE")
-        else:
-            print("DUPLICATE")
-        number_list.append(number)
+        num = int(input("Enter a number: "))
+        number_list.append(num)
+        
+        
+        count += 1
     except ValueError:
-        print("invalid input. TRY AGAIN")
+        print("Invalid input! Stopping.")
         break
+
 #a add to set
+if number_list.count(num) > 0:
+    print("Duplicate")
+else:
+    print("Unique")

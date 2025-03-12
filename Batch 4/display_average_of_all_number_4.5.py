@@ -12,3 +12,7 @@ while len(number_list) < 10:
 
 # use sum / len fucntions for average
 # print average
+
+average_ = sum(number_list) / len(number_list)
+
+print ("The average is ", average_)

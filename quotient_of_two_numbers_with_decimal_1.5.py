@@ -8,4 +8,7 @@ second_number = float(input("What's the second number?: "))
 
 
 # use / function to find quotient
+
+quotient = first_number / second_number
+
 # print quotient

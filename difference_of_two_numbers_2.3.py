@@ -6,5 +6,9 @@ second_number = 0
 
 
 # ask for two input numbers
+
+first_number = float(input("Input first number ::"))
+second_number = float(input("Input second number::"))
+
 # use - function to find the difference 
 # print the difference

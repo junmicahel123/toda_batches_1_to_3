@@ -15,3 +15,5 @@ while len(number_list) < 10:
         break
 # sort numbers
 # print the sorted numbers
+number_list.sort()
+print("Sorted numbers are :", number_list)

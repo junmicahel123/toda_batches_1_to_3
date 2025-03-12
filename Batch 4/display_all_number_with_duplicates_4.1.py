@@ -13,10 +13,11 @@ for number in range(10):
 #  add duplicate set
 duplicate_set = []
 # if state ment number cout > 1 
-if numbers_list.count(numbers) > 1:
-    duplicate_set.append(numbers)
-
-    
+for numbers in numbers_list:
+    if numbers_list.count(numbers) > 1:
+        duplicate_set.append(numbers)
 # add to duplicate set
 # print the duplicate set
+
+print(duplicate_set)
 

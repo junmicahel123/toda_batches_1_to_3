@@ -17,4 +17,6 @@ for number_input in range(10):
     if numbers % 2 != 1:
         count_even_numbers += 1
 
+
 # print even_numbers
+print(f"The even number count is {count_even_numbers}")

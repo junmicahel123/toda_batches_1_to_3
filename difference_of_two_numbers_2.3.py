@@ -11,4 +11,7 @@ first_number = float(input("Input first number ::"))
 second_number = float(input("Input second number::"))
 
 # use - function to find the difference 
+
+difference = first_number - second_number
+
 # print the difference

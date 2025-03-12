@@ -3,8 +3,6 @@
     # (0, 101, 2)
 
 for even_numbers in range(0, 101, 2):
-
-
-
+    print(f" The even numbers are {even_numbers}")
 
 # print

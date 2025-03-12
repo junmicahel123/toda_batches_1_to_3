@@ -10,4 +10,11 @@ count_even_numbers = 0
     # use if conditions
     #       if number % 2 != 1
     # add to even number if true
+
+for number_input in range(10):
+    numbers = int(input(f"Input Number {number_input + 1}::  "))
+
+    if numbers % 2 != 1:
+        count_even_numbers += 1
+
 # print even_numbers

@@ -8,7 +8,9 @@ while len(number_list) < 10:
         number_list.append(number)
     except ValueError:
         print("Invalid input. Restart to try again")
-        
+
 # use try loop to check valid inputs
 # use max function for number set
 
+
+print("The highest number is ::", max(set(number_list)))

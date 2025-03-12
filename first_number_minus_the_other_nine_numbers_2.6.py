@@ -18,4 +18,7 @@ for the_rest in range(0, 9):
 
 # minus the first number to the iniatilized constant
 
+difference = first_number - the_rest_of_the_numbers
+
+
 # print the results

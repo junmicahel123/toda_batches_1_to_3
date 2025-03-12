@@ -8,7 +8,6 @@ numbers = 1
     # while numbers <= 100
 
 while numbers <= 100:
-    print(f"Odd numbers are {numbers}")
-    
+    print(f"Odd numbers {numbers}")
     # num += 2
 # print the number 

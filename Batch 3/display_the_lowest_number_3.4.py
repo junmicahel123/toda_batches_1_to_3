@@ -17,3 +17,6 @@ while len(number_set) < 10:
         break
 # use min function
 
+lowest_number = min(number_set)
+
+print("The lowest number is", lowest_number)

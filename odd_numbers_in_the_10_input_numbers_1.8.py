@@ -16,3 +16,4 @@ for numbers in range(10):
 
 
 #print total_odd_numbers
+print(f" The total number of odd in the 10 numbers is -->>  {total_odd_numbers}")

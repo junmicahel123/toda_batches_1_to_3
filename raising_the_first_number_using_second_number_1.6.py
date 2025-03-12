@@ -11,4 +11,6 @@ exponent_number = float(input("What's the second number?: "))
 
 # use the second number as exponent and the first as the base
 # base ** exponent
+resulting_value = base_number ** exponent_number
+
 # print result

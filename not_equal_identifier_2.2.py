@@ -11,6 +11,9 @@ number_2 = float(input("What's the second number?::"))
 
 # use if statements
     # if number 1 != to number 2
+ # print not equal
 if number_1 != number_2:
-    
-    # print not equal
+    print("Not Equal")
+else:
+    print("Equal")
+   

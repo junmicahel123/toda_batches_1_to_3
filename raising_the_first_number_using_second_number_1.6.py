@@ -14,3 +14,6 @@ exponent_number = float(input("What's the second number?: "))
 resulting_value = base_number ** exponent_number
 
 # print result
+
+print(f"The result of raising {base_number} to {exponent_number} is -->> {resulting_value}")
+

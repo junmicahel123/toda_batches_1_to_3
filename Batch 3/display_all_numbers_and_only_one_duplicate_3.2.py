@@ -21,3 +21,5 @@ for num in range(10):
      
 
 # print result
+
+print("Filtered Numbers are::", filtered_numbers)

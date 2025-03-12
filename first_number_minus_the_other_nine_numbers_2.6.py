@@ -10,6 +10,11 @@ the_rest_of_the_numbers = 0
     # user for loop for the 9 other numbers
     # add the numbers to the initialized constant
     # separated from the first number
+first_number = float(input("Input Number:: "))
+ 
+for the_rest in range(0, 9):
+    numbers_2_9_ = float(input("Input Number:: "))
+    the_rest_of_the_numbers += numbers_2_9_
 
 # minus the first number to the iniatilized constant
 

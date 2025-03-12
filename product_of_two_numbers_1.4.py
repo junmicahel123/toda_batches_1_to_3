@@ -9,4 +9,4 @@ number_2 = float(input("What's the second Number?: "))
 produkto = number_1 * number_2
 
 # print results
-
+print(f"The product of {number_1} and {number_2} is {produkto} :)")

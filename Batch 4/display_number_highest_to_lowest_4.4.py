@@ -10,7 +10,9 @@ while len(number_list) < 10:
         number_list.append(numbers)
     except ValueError:
         print("Invalid input. Restart to try again")
-        
+
 
 # reverse the sort func  for the number list
 # print number list
+number_list.sort(reverse=True)
+print(number_list)

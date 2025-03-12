@@ -10,3 +10,5 @@ second_number = 0
 smaller_number = min(first_number, second_number)
 
 # print the results
+
+print(f"The smaller number is {smaller_number}")

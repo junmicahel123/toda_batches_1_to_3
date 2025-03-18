@@ -11,17 +11,21 @@ count = 0
 
 while count < 10:
     try:
-        num = int(input("Enter a number: "))
-        number_list.append(num)
-        
-        
+        number = int(input("Enter a number: "))
+       
+        if number in number_list:
+            print("Duplicate")
+        else:
+            print("Unique")
+        #a add to set
         count += 1
+        number_list.append(number)
     except ValueError:
         print("Invalid input! Stopping.")
         break
 
-#a add to set
-if number_list.count(num) > 0:
-    print("Duplicate")
-else:
-    print("Unique")
+
+
+
+
+

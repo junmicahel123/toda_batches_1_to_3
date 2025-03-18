@@ -17,12 +17,17 @@ while count < 10:
             print("Duplicate")
         else:
             print("Unique")
-        #a add to set
+        #add to set
         count += 1
         number_list.append(number)
     except ValueError:
         print("Invalid input! Stopping.")
         break
+
+
+
+
+
 
 
 
